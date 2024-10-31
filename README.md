@@ -46,7 +46,7 @@
 ```
 4. Отсутствует тип ресурса на 24 строке, не верное имя, должно начинваться с цифры, в ресурсе docker_container не верно заданно имя
 ![image](https://github.com/user-attachments/assets/d4dd8fc2-2953-4d4e-b355-6a4f13472f97)
-![image](https://github.com/user-attachments/assets/44437b6a-0be1-45d8-a09d-11f96432dac4)
+
 
 
 
