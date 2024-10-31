@@ -48,7 +48,7 @@
 ![image](https://github.com/user-attachments/assets/d4dd8fc2-2953-4d4e-b355-6a4f13472f97)
 ![image](https://github.com/user-attachments/assets/44437b6a-0be1-45d8-a09d-11f96432dac4)
 
-Данный ключ пропускает план, а это может привести к ошибкам, потому что код не проверенный
+
 
 
 ```
@@ -67,10 +67,21 @@ resource "docker_container" "nginx1" {
   }
 }
 ```
+Данный ключ пропускает план, а это может привести к ошибкам, потому что код не проверенный
+![image](https://github.com/user-attachments/assets/5d75a291-0ef0-47ae-be41-c131fa68fb96)
 
+```
+{
+  "version": 4,
+  "terraform_version": "1.8.4",
+  "serial": 11,
+  "lineage": "65c1f51e-beba-db8d-7d4e-83c10689ebbb",
+  "outputs": {},
+  "resources": [],
+  "check_results": null
+}
+```
 
-
-### Задание 2
 
 
 
