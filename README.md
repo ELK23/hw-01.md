@@ -23,6 +23,9 @@
 ---
 
 ### Задание 1
+
+```
+
 "attributes": {
             "bcrypt_hash": "$2a$10$10dkHz5bmmPG8wes/IeL6uan8ejGkTnhJkb0ZU4mc.5Pm8HSg7j3y",
             "id": "none",
