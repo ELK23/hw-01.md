@@ -45,6 +45,24 @@
           },
 ```
 4. Отсутствует тип ресурса на 24 строке, не верное имя, должно начинваться с цифры, в ресурсе docker_container не верно заданно имя
+![image](https://github.com/user-attachments/assets/d4dd8fc2-2953-4d4e-b355-6a4f13472f97)
+
+```
+resource "docker_image" "nginx" {
+  name         = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "nginx1" {
+  image = docker_image.nginx.image_id
+  name  = random_password.random_string.result
+
+  ports {
+    internal = 80
+    external = 9090
+  }
+}
+```
 
 
 
