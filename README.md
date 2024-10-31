@@ -70,6 +70,11 @@ resource "docker_container" "nginx1" {
 Данный ключ пропускает план, а это может привести к ошибкам, потому что код не проверенный
 ![image](https://github.com/user-attachments/assets/5d75a291-0ef0-47ae-be41-c131fa68fb96)
 
+
+![image](https://github.com/user-attachments/assets/4c83269e-e67f-401e-805b-95c9e9bf80df)
+keep locally true
+
+
 ```
 {
   "version": 4,
